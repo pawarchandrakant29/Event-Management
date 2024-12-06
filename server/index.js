@@ -15,7 +15,7 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://localhost:3000",
-      "https://event-management-icjmmc9w0-pawarchandrakant29s-projects.vercel.app",
+      "https://event-management-ap6hl8cyd-pawarchandrakant29s-projects.vercel.app",
     ],
     methods: ["POST", "GET", "PUT", "DELETE"],
     credentials: true,
