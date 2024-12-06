@@ -36,7 +36,10 @@ const Login = () => {
     try {
       const response = await axios.post(
         `${API_URL}/api/auth/login`,
-        { email, password }
+        { email, password },
+         {
+    withCredentials: true, // Include credentials like cookies
+  }
       );
       setMessage(response.data.message);
 
