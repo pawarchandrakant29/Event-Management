@@ -9,18 +9,13 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/"
-    }
-  ],
-  "routes": [
-    {
-      "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+      "destination": "/",
+       "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
       "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
         "Access-Control-Allow-Headers": "Content-Type, Authorization"
-      }
+    }
     }
   ]
 }
-
