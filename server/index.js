@@ -14,8 +14,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "http://localhost:3000",
-      "https://event-management-q1saufom3-pawarchandrakant29s-projects.vercel.app",
+      "http://localhost:3000"
     ],
     methods: ["POST", "GET", "PUT", "DELETE"],
     credentials: true,
